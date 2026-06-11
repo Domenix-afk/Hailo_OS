@@ -1,0 +1,39 @@
+======================================================================
+NERO AI BENCHMARK - STARTING
+Timestamp: 2026-06-10 16:16:15.838556
+======================================================================
+
+1. Checking System Info...
+   CUDA Available: True
+   GPU: NVIDIA GeForce RTX 4060 Ti
+   GPU Memory: 8.00 GB
+
+2. Importing OmniEngine...
+   OK - Import successful
+
+3. Initializing OmniEngine (Loading Models)...
+Initializing Omni Engine...
+Loading Whisper STT...
+Loading Qwen2.5 LLM...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Skipping import of cpp extensions due to incompatible torch version 2.11.0+cu128 for torchao version 0.16.0             Please see https://github.com/pytorch/ao/issues/2919 for more info
+Omni Engine Ready!
+   OK - Engine initialized
+
+4. Testing LLM Inference...
+
+   Test 1/3:
+   Time: 1.86s
+   Result: Ich bin Nero, ich bin ein virtueller Assistent, also keine G...
+
+   Test 2/3:
+   Time: 0.82s
+   Result: Guten Tag! Ich fühle mich gut und bereit, für Sie da zu sein...
+
+   Test 3/3:
+   Time: 0.59s
+   Result: Sehr gut, danke! Wie kann ich Ihnen heute behilflich sein?...
+
+======================================================================
+BENCHMARK COMPLETE - SUCCESS
+======================================================================

@@ -1,0 +1,42 @@
+======================================================================
+NERO AI FRAMEWORK - COMPREHENSIVE BENCHMARK REPORT
+======================================================================
+
+SYSTEM INFORMATION
+----------------------------------------------------------------------
+  timestamp: 2026-06-10T16:15:42.370716
+  cpu_count: 8
+  cpu_count_logical: 16
+  ram_total_gb: 31.21
+  ram_available_gb: 17.86
+  cuda_available: True
+  cuda_device: NVIDIA GeForce RTX 4060 Ti
+  cuda_memory_total_gb: 8.0
+
+
+BENCHMARK RESULTS
+----------------------------------------------------------------------
+
+1. Model Loading
+   Min: 2.64s
+   Max: 5.63s
+   Mean: 4.14s
+   StdDev: 2.12s
+
+2. Speech-to-Text
+   Mean Time: 0.28s
+   Real-Time Factor: 0.09x
+
+3. Language Model
+   Mean Time: 2.58s
+   Throughput: 14.28 words/sec
+
+5. End-to-End Pipeline
+   Mean Time: 0.17s
+
+6. Stress Test (10 Requests)
+   Total Time: 12.59s
+   Avg per Request: 1.26s
+   Requests/sec: 0.79
+
+======================================================================
